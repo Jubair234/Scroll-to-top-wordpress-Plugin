@@ -1,10 +1,8 @@
 // Wait for the DOM to be fully loaded before running the script.
 document.addEventListener('DOMContentLoaded', function() {
 
-    // Get the button element by its ID
     const scrollToTopBtn = document.getElementById('scrollToTopBtn');
 
-    // Show or hide the button based on scroll position
     window.addEventListener('scroll', function() {
         // If the user has scrolled down more than 300 pixels
         if (window.scrollY > 300) {
